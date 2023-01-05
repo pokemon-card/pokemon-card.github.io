@@ -1,0 +1,5 @@
+{
+	"version": "0.5",
+	"importance": "required",
+	"description": "New Settings, themes, apps, + More thanks to the MSG Team! Please install this update as it is Major."
+}
