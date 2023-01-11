@@ -1,5 +1,5 @@
 {
-	"version": "0.5",
+	"version": "0.6",
 	"importance": "required",
-	"description": "New Settings, themes, apps, + More thanks to the MSG Team! Please install this update as it is Major."
+	"description": "Changed updater to be quicker, have a full progress bar, and also changes layout and colors of key home-pages (this may be reverted). This is a mandatory update."
 }
