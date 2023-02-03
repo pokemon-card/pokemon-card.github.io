@@ -1,5 +1,5 @@
 {
-	"version": "0.6",
+	"version": "0.7",
 	"importance": "required",
-	"description": "Changed updater to be quicker, have a full progress bar, and also changes layout and colors of key home-pages (this may be reverted). This is a mandatory update."
+	"description": "New Exploit added, changed some styling. NEXT UPDATE PLANS: Improve performance, add more features. Further Update: Add App store."
 }
