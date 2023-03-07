@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html {
+    background: linear-gradient(0deg, rgba(0, 49, 107, 0.98), rgba(0, 49, 107, 0.98)), url(../assets/msg-bg.jpg);
+}
+
+.logo {
+    width: 15vw;
+    height: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+.groupName {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.small-info {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 4vh;
+margin-left: 15vw;
+margin-right: 15vw;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.subheader {
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 500;
+font-size: 6vh;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.project-tile {
+    background: rgba(160, 127, 201, 0.7);
+    border: 0.4vh solid #745EBE;
+    border-radius: 3vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 5vh;
+}
+
+.project-tile:hover {
+    background: rgba(160, 127, 201, 0.9);
+}
+
+.project-title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 4vh;
+text-align: center;
+color: white;
+}
+
+.project-text {
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 700;
+font-size: 3vh;
+text-align: center;
+color: white;
+}
+
+.discord {
+    background: rgba(90, 81, 196, 0.8) !important;
+border: 5px solid #4021A7 !important;
+}
+
+.discord:hover {
+    background: rgba(90, 81, 196, 1) !important;
+}
+
+.dev-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.dev-tile {
+    display: flex;
+    flex-direction: row;
+    background: #49096E;
+    border-radius: 5vh;
+}
+
+.dev-tile:hover {
+    transform: scale(1.02);
+}
+
+.nailington {
+    background: #2F6B1C !important;
+}
+
+.object {
+    background: #444B3B !important;
+}
+
+.parrot {
+    background: #9E7D33 !important;
+}
+
+.dev-logo {
+    margin-left: 2vw;
+    border-radius: 30vw;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.dev-name {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 3vh;
+text-align: center;
+color: white;
+margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: 1vw;
+}
+
+.dev-overlay {
+    display: none;
+    z-index: 100;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    background: #49096E;
+    border-radius: 5vh;
+    padding: 15vh;
+    padding-right: 20vw;
+}
+
+.page-curtain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    display: none;
+}

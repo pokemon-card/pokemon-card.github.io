@@ -1,69 +1,71 @@
 <!DOCTYPE html>
-<head lang="en">
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5358301512554034"
-     crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
     <title>Math Study</title>
+    <link rel="icon" href="assets/MSG_Logo.png">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="title" content="Math Study">
+<meta name="description" content="A team of developers making entertaining websites, exploits, and other services.">
+<meta name="keywords" content="fun, entertainment, developers, code, github">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+</head>
 
-    <link rel="stylesheet" href="css/styles.css">
-<header>
-	<div>
-		<h1>Math Study Group</h1>
-		<p>Our Projects</p>
-	</div>
-</header>
-<main>
-	<ul id="cards">
-		<li class="card" id="card_1">
-			<div class="card__content">
-				<div>
-					<h2>Retro Emulator</h2>
-					<p>A stunning Retro Emulator, based off of the popular retro emulator, "EmulatorJS", with amazing performance.</p>
-                    </p>
-					<p><a href="https://cattn.github.io/gba" class="btn btn--accent">Learn more</a></p>
-				</div>
-				<figure>
-					<img src="assets/home3.png" alt="Image description">
-				</figure>
-			</div>
-		</li>
-		<li class="card" id="card_2">
-			<div class="card__content">
-				<div>
-					<h2>MSG Web</h2>
-					<p>A blazing fast site providing entertainment to people accross the world, with many popular projects.</p>
-					<p><a href="https://cattn.github.io/msgv2" class="btn btn--accent">Learn more</a></p>
-				</div>
-				<figure>
-					<img src="assets/msgv22.png" alt="Image description">
-				</figure>
-			</div>
-		</li>
-		<li class="card" id="card_3">
-			<div class="card__content">
-				<div>
-					<h2>Bunker Version 1</h2>
-					<p>A new, sleek, locally downloadable file that allows evasion from spyware, as well as providing quality features to ChromeOS users, all in one place.</p>
-					<p><a href="https://github.com/Math-Study/bunker-v1/releases" class="btn btn--accent">Learn more</a></p>
+    <body>
 
-				</div>
-				<figure>
-					<img src="assets/bunkerv14.png" alt="Image description">
-				</figure>
-			</div>
-		</li>
-		<li class="card" id="card_4">
-			<div class="card__content">
-				<div>
-					<h2>Github Profile</h2>
-					<p>The home of all Math Study projects, almost everything we do is open source, and free for the community to enjoy and build upon!</p>
-					<p><a href="https://github.com/Math-Study" class="btn btn--accent">View Here!</a></p>
-				</div>
-				<figure>
-					<img src="assets/mathstudy.png" alt="Image description">
-				</figure>
-			</div>
-		</li>
-	</ul>
-</main>
+        <img src="assets/MSG_Logo.png" alt="Math Study Group Logo" class="logo">
+        <h1 class="groupName"> Math Study </h1>
+        <p class="small-info"> A team of developers making entertaining websites,
+            exploits, and other services. </p>
+
+        <h2 class="subheader"> - Our Projects - </h2>
+
+        <div class="project-tile" onclick="window.location.href = 'https://github.com/cattn/msgweb/'">
+            <h1 class="project-title">[MSGweb]</h1>
+            <p class="project-text">Our flagship site. Includes a robust music library, huge collection of games, and pleasing styling.</p>
+        </div>
+        <div class="project-tile">
+            <h1 class="project-title" onclick="window.location.href = 'https://github.com/javascythe/bnkr-pro/'">[Bunker]</h1>
+            <p class="project-text">A highly advanced exploit device. Includes many exploits out of the box, as well as other useful features to be used undetected.</p>
+        </div>
+        <div class="project-tile discord">
+            <h1 class="project-title" onclick="window.location.href = 'https://discord.gg/mathstudy'">[Discord]</h1>
+            <p class="project-text">Our discord will include all future projects, as well as projects not mentioned.</p>
+        </div>
+
+        <h2 class="subheader"> - Developers -</h2>
+        <div class="dev-grid-container">
+        <div class="dev-grid">
+            <div class="dev-tile" id="cat">
+                <img src="assets/Catpfp.png" alt="Math Study Group Logo" class="dev-logo">
+                <h1 class="dev-name"> Cat. </h1>
+            </div>
+        </div>
+        <div class="dev-grid">
+            <div class="dev-tile nailington" id="nail">
+                <img src="assets/nailpfp.gif" alt="Math Study Group Logo" class="dev-logo">
+                <h1 class="dev-name"> Nailington </h1>
+            </div>
+        </div>
+        <div class="dev-grid">
+            <div class="dev-tile object" id="object">
+                <img src="assets/objectpfp.png" alt="Math Study Group Logo" class="dev-logo">
+                <h1 class="dev-name"> [object Object] </h1>
+            </div>
+        </div>
+        <div class="dev-grid">
+            <div class="dev-tile parrot" id="parrot">
+                <img src="assets/parrotpfp.gif" alt="Math Study Group Logo" class="dev-logo">
+                <h1 class="dev-name"> proudparrot2 </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-curtain" id="curtain"></div>
+    <div class="dev-overlay" id="contact">
+        <h1 class="dev-name" id="contactInfo">Invalid Contact Clicked.</h1>
+    </div>
+    </body>
+    <script src="js/script.js"></script>
+</html>
