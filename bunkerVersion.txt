@@ -1,5 +1,0 @@
-{
-	"version": "0.7",
-	"importance": "required",
-	"description": "New Exploit added, changed some styling. NEXT UPDATE PLANS: Improve performance, add more features. Further Update: Add App store."
-}
