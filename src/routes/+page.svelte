@@ -5,8 +5,10 @@
     
     import { Button } from "$lib/components/ui/button";
     import * as Card from "$lib/components/ui/card/index.js";
+    import Analytics from "$lib/components/Analytics.svelte";
+    
   </script>
-
+  <Analytics />
   <div class="flex align-center justify-center mt-12">
     <img
       src={MSG_Logo}
